@@ -1,18 +1,17 @@
-Role Name
-=========
+ansible joplin role
+===================
 
 Role to install joplin note taking software.
 
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
     - hosts: servers
+      become: ys
       roles:
          - role: baztian.joplin
 
 License
 -------
 
-GPLv3
+MIT
