@@ -14,6 +14,7 @@
   file:
     path: /usr/local/share/icons/hicolor/512x512/apps
     state: directory
+    mode: 0755
 - name: Symlink default Joplin version
   file:
     src: "Joplin-{{ joplin_version }}.AppImage"
@@ -32,7 +33,9 @@
   file:
     path: /usr/local/share/applications
     state: directory
+    mode: 0755
 - name: Copy Joplin desktop launcher
   copy:
     src: joplin.desktop
     dest: /usr/local/share/applications/joplin.desktop
+    mode: 0644
