@@ -1,4 +1,4 @@
 ---
-joplin_version: 2.3.5
+joplin_version: 2.6.10
 # echo "latest-linux.yml#sha512" |base64 -d|xxd -p -c 100
-joplin_sha512: 6bacb71116bf1288134c7ce4ab1a0586dd3c30da6273976aacd767662f4714bd68914d46f23810f261b3742e9b9594cf564549bf9bec92c707cca0d1a24adbd2
+joplin_sha512: 05cecb22db1addf36ec54b08f8891998b59c5c15d62fec73067b371cad298c7916954175f85941b195b6e4a19cdb7e197682ae9e8653e58cb362a0af8e50d872
