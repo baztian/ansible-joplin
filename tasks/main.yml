@@ -1,5 +1,5 @@
 ---
-- name: Check if Joplin {{ joplin_version }} already installed
+- name: Check if Joplin version is already installed.
   stat:
     path: /opt/Joplin-{{ joplin_version }}.AppImage
   register: joplin_bin
