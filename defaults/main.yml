@@ -1,4 +1,4 @@
 ---
-joplin_version: 3.0.14
-# echo "latest-linux.yml#sha512" |base64 -d|xxd -p -c 100
-joplin_sha512: 27e44ae52c9954f5ce1b2cb96e2287725d1371262c645eb73953cbe4de9e1ce875211842a666153b8e4820e3117f91249f2e9ee7770e24b15383a269ce6829ce
+# https://github.com/laurent22/joplin/releases
+joplin_version: 3.3.13
+joplin_sha256: 22ff90b3846e2d2c9b2722d325fffa84775e362af9a4567a9fa8672e27c5a5bd
